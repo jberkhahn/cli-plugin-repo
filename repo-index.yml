@@ -1,16 +1,22 @@
 ---
 plugins:
-- name: v3_beta
+- name: v3-cli-plugin
   description: Beta commands for v3 of the cloud controller API
-  version: 0.4.7
+  version: 0.6.5
   created: 2015-07-29
-  updated: 2015-10-28
+  updated: 2016-10-28
   company: CF Foundation
   authors:
-  - name: Jonathan Berkhahn
-    homepage: http://github.com/jberkhahn
-  homepage: http://github.com/jberkhahn/v3_beta
+  - name: CF Capi Team
+    homepage: http://github.com/cloudfoundry/cloud_controller_ng
+  homepage: http://github.com/cloudfoundry/v3-cli-plugin
   binaries:
+  - platform: win64
+    url: https://github.com/cloudfoundry/v3-cli-plugin/releases/download/0.6.5/v3-cli-plugin.exe
+    checksum: 454aec0a9a0b941222adc1b2a4aedca9eef824a1
+  - platform: linux
+    url: https://github.com/cloudfoundry/v3-cli-plugin/releases/download/0.6.5/v3-cli-plugin.linux
+    checksum: a2397457a6565cb3d0aeb44b4afea06ce9dded2c 
   - platform: osx
-    url: https://github.com/jberkhahn/v3_beta/blob/master/bin/OSX_binary?raw=true
-    checksum: 5b756f378bfb95e9b48c822a0ffe0466fd2b3b9b
+    url: https://github.com/cloudfoundry/v3-cli-plugin/releases/download/0.6.5/v3-cli-plugin.osx
+    checksum: d5cd72da5ab5f585ed24d09908c0d0ee97cbc539 
